@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Tab Cleanser",
+    "version": "1.0.0",
+    "description": "Delete half of your least-recently used tabs",
+
+    "action": {
+      "default_icon" : {
+         "128" : "man.png"
+      }
+    },
+    "permissions": ["storage", "activeTab", "tabs", "scripting"],
+    "background": {
+      "service_worker": "background.js"
+    }
+   
+}
+    
